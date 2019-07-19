@@ -4,7 +4,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="content-language"  content="ro" />
-	<meta name="description" content="Ofera cadouri celor dragi!"/>
+	<meta name="description" content="Aurora Dragoi Sandale Hispanitas - B-day"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<meta name="author" content="Dragoi Aurora" />
@@ -13,7 +13,7 @@
 	<meta name="revisit-after"  content="1 days" />
 	<meta name="rating"  content="General" />
 	<meta charset='utf-8'>
-	<title>B-day</title>	
+	<title>B-day | Aurora Dragoi | Sandale Hispanitas</title>	
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
@@ -33,32 +33,19 @@
 	<script type="text/javascript" src="jslibs/bootstrap.min.js"></script>
 	<script type="text/javascript" src="jslibs/owl.carousel.min.js"></script>
 	<script src="https://kit.fontawesome.com/2f2e6a0d14.js"></script>
-
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$("#show-verical").click(function(){
-				$(this).addClass("red");
-				$("#gift-vertically").show();
-				$("#carousel-gifts").hide();	
-				$("#show-horizontal").removeClass("red");
 
-			});
-			$("#show-horizontal").click(function(){
-				$(this).addClass("red");
-				$("#carousel-gifts").show();
-				$("#gift-vertically").hide();	
-				$("#show-verical").removeClass("red");
-
-			});
-			$("#carousel-gifts").owlCarousel({
+			$("#carousel-single-gift").owlCarousel({
 				autoplay:true,
 				autoplayTimeout:3000,
 				autoplayHoverPause:true,
-				nav:true,
-				navText: ["<i class=\"fas fa-angle-left\"></i>", "<i class=\"fas fa-angle-right\"></i>"],						
-				dots: false,
+				nav:false,
+				// navText: ["<i class=\"fas fa-angle-left\"></i>", "<i class=\"fas fa-angle-right\"></i>"],						
+				dots: true,
+				// dotsContainer: '.test',
 				slideBy: 1,
-				loop:true,
+				// loop:true,
 				margin:20,
 				autoHeight:true,
 				responsive:{
@@ -85,6 +72,7 @@
 		});
 		
 	</script>
+
 </head>
 
 <body>
@@ -101,8 +89,8 @@
 						<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
 							<a class="nav-link navbar-text active" href="acasa">
-									<i class="fas fa-gift icon" ></i>			
-								</a>
+								<i class="fas fa-gift icon" ></i>			
+							</a>
 						</li>
 					
 						
@@ -175,109 +163,67 @@
 			</div>
 		</nav>
 	</header>
-	<div class="center">
-		<img id="pozabanner" src="images/background5.jpg" class="img-fluid" style="width:100%"/>
-		<div class="center-img">
-			<img src="images/portret.JPG" class="rounded-circle portret-height" />
-		</div>
+	
+	<div class="padding-page"></div>
+	<div class="text-center">
+		<img src="images/portret.JPG" class="rounded-circle portret-gift" /><br/>
+	
+			<span class="small-text">
+				Aurora Dragoi
+			</span>		
 	</div>
+
 					
 	<div class="container">	
-		<div class="padding-page"></div>
-		<div class="text-center ">
-			<span class="title">
-				Aurora Dragoi &nbsp;
-			</span>						
-			<i class="far fa-edit icon" title="Edit"></i>
-			<div  class="small-text">
-				<span class="red">
-					April 3
-				</span>
-				- 26 points
-			</div>
-		</div>
-		<div class="padding-section"></div>	
-
-		<div class="title">
-			Wishes						
-			<i class="fas fa-bars icon-wishes" id="show-verical"></i>
-			<i class="fas fa-th-large icon-wishes red" id="show-horizontal"></i>
-		</div>
-		<div class="padding-section"></div>				
+		<div class="padding-section"></div>
+		
 			
-		<div class="owl-carousel owl-theme owl-centered "  id="carousel-gifts">							
+		<div class="owl-carousel owl-theme owl-centered"  id="carousel-single-gift">							
 			<div class="item"  >
-				<a href="gift.html">                
+				<a href="gift">                
 					<img class="img-fluid parteneri-img" src="images/gifts/sandale1.jpg" /> 
 				</a>
 			</div>
 			<div class="item"  >
-				<a href="gift.html">                
-					<img class="img-fluid parteneri-img" src="images/gifts/sandale2.jpg" /> 
+				<a href="gift">                
+					<img class="img-fluid parteneri-img" src="images/gifts/sandale1_2.jpg" /> 
 				</a>
 			</div>
 			<div class="item"  >
-				<a href="gift.html">                
-					<img class="img-fluid parteneri-img" src="images/gifts/sandale3.jpg" /> 
+				<a href="gift">                
+					<img class="img-fluid parteneri-img" src="images/gifts/sandale1_3.jpg" /> 
 				</a>
 			</div>
-			<div class="item"  >
-				<a href="gift.html">                
-					<img class="img-fluid parteneri-img" src="images/gifts/sandale4.jpg" /> 
-				</a>
+			
+
+		</div>
+		<div class="padding-section"></div>
+		<hr/>
+		<div class="padding-section"></div>
+		<div class="row">
+			<div class="col-sm-4 col-md-3">
+				<div class="text-left subtitle text-gift-page">
+					Sandale Hispanitas
+				</div>
+
 			</div>
-			<div class="item"  >
-				<a href="gift.html">                
-					<img class="img-fluid parteneri-img" src="images/gifts/sandale5.jpg" /> 
-				</a>
+			<div class="col-sm-2 col-md-3">
+				<div class="text-gift-page">
+					<i class="fas fa-thumbs-up icon-wishes "></i>
+					Received
+				</div>
+				
 			</div>
-			<div class="item"  >
-				<a href="gift.html">                
-					<img class="img-fluid parteneri-img" src="images/gifts/adidasi.jpg" /> 
-				</a>
+			<div class="col-sm-6 col-md-6">
+				<div class="text-right subtitle text-gift-page">
+				Liked by 3 people
+				</div>
+
 			</div>
 
 		</div>
-
 	
-		<div class="row" id="gift-vertically" style="display: none">
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<a href="gift.html"> 
-					<img src="images/gifts/sandale1.jpg" class="img-fluid"/>
-				</a>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/sandale2.jpg" class="img-fluid"/>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/sandale3.jpg" class="img-fluid"/>
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/sandale4.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/sandale5.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/adidasi.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/adidasi2.jpg" class="img-fluid"/>								
-			</div>
-
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/geanta.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/geanta2.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/geanta3.jpg" class="img-fluid"/>								
-			</div>
-			<div class="col-sm-6 col-md-4 col-lg-3">
-				<img src="images/gifts/geanta4.jpg" class="img-fluid"/>								
-			</div>
-		</div>
+		
 		<div class="padding-page"></div>	
 	</div>
 	<footer id="footer" >					
@@ -294,16 +240,7 @@
 			</div>
 		</div><!--/ Container end -->			
 		
-	</footer>
-				
-	<!-- sageata back to top -->
-	
-	<div class="scroll-top-wrapper ">
-		<i class="fas fa-chevron-up arrow"></i>
-	
-	</div>
-	
-	<!-- end sageata back to top -->
+	</footer>				
 
 	
 </body>
